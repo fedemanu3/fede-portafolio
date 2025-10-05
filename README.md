@@ -4,10 +4,11 @@ Repositorio de proyectos destacados y certificados de cursos durante la carrera 
 Soy estudiante de Ingeniería Electrónica apasionado por la automatización, control de procesos y desarrollo de sistemas digitales.
 
 ## 🚀 Proyectos destacados
-- [Sistema HMI con PLC Schneider M172](proyectos/hmi-plc-m172/)
-- [Ecualizador gráfico de audio](proyectos/ecualizador-de-audio/)
+- [Sistema HMI con PLC Schneider M172](Proyectos/HMI-para-proceso-basada-en-PLC/)
+- [Ecualizador gráfico de audio](Proyectos/Ecualizador-de-audio/)
+- [Robotín Matero](Proyectos/Robotín-matero/)
 
 ## 📜 Certificaciones
-- [Curso de Huawei - Data Management and Analisys]
-- [Curso de Python]
+- [Curso de Huawei - Data Management and Analisys](Certificados/)
+- [Curso de Python](Certificados/)
 📫 **Contacto:** [fedemanu3@gmail.com](mailto:fedemanu3@gmail.com)
