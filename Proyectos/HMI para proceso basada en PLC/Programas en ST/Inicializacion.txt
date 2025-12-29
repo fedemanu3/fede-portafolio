@@ -1,0 +1,39 @@
+/*
+*								INICIALIZACIÓN
+* Tarea realizada en Init
+*  Inicializo las varibles de status con los valores 
+*  default de EEPROM y seteo el estado inicial en Standby	
+*/
+
+// Estado del PLC (0=Standby; 1=ctrl_manual; 2=ctrl_LC; 3=Error)
+
+estado_plc := 0;
+
+
+
+// Variables de Temperatura
+
+Temp_SP_r := Temp_SP_Default_r;
+Temp_Delta_r := Temp_Delta_Default_r;
+Temp_MAX_r := Temp_Max_Default_r;
+Temp_MIN_r := Temp_Min_Default_r;
+Temp_Calibracion_r := Temp_Calibracion_Default_r;
+
+// Variables de pH
+
+pH_SP_r := pH_SP_Default_r;
+pH_Delta_r := pH_Delta_Default_r;
+pH_MAX_r := pH_Max_Default_r;
+pH_MIN_r := pH_Min_Default_r;
+pH_Calibracion_r := pH_Calibracion_Default_r;
+
+// Variables de Oxigeno Disuelto
+
+OD_SP_r := OD_SP_Default_r;
+OD_Delta_r := OD_Delta_Default_r;
+OD_MAX_r := OD_Max_Default_r;
+OD_MIN_r := OD_Min_Default_r;
+OD_Calibracion_r := OD_Calibracion_Default_r;
+
+// Variable Nivel de Espuma
+Esp_nivel_seg_d := Esp_nivel_seg_Default_d;

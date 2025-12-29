@@ -1,0 +1,122 @@
+/* 								CHEQUEO DE VARIABLES					*/
+
+//----------------------------------------------------------------
+// 					Calibración de variables
+//----------------------------------------------------------------
+	Temp_IND_r := (TO_REAL(Temp_plc)-100.0)/Temp_Calibracion_r;
+	//pH_IND_r := TO_REAL(PH_plc);
+	pH_IND_r := (TO_REAL(PH_plc))*pH_Calibracion_r/1000.0;
+	//OD_IND_r := TO_REAL(OD_plc);
+    OD_IND_r := (TO_REAL(OD_plc))*OD_Calibracion_r/1000.0;
+	Esp_nivel_IND_b := Esp_nivel_plc;
+
+//----------------------------------------------------------------
+// 					Manejo de MEF (botones y estados)
+//----------------------------------------------------------------
+detectar_boton1(clk := control_manual_b);
+detectar_boton2(clk := control_LC_b);
+
+IF detectar_boton1.q THEN
+	estado_ctrl_manual_b := NOT estado_ctrl_manual_b;
+	control_manual_b := FALSE;
+END_IF;
+
+IF detectar_boton2.q THEN
+	estado_ctrl_LC_b := NOT estado_ctrl_LC_b;
+	control_LC_b := FALSE;
+END_IF;
+
+
+
+//----------------------------------------------------------------
+// 					Chequeo de desconexión y fuera de rango
+//----------------------------------------------------------------
+
+/*	Si las indicaciones arrojan por encima(debajo) de los valores máximos(mínimos)
+	se encienden las alarmas de fuera de rango MIN/MAX.
+	Cuando el sensor esta desconectado se recibe el valor -3276.8. (9999.9 en la web).
+	En ambos casos se pone en TRUE la variable alarma_aviso_b.
+*/
+
+
+// Sensor de Temperatura
+
+// Chequeo de Desconexión
+IF (Temp_IND_r <= (TO_REAL(-32768)/10.0)) THEN
+	Temp_INDAlarma_b := TRUE;
+	Temp_IND_r := 9999.9;
+	Temp_Alarma_Descx_b := TRUE;
+	alarma_aviso_b := TRUE;
+// Chequeo de Fuera de rango MIN o MAX	
+ELSIF ((Temp_IND_r <= Temp_MIN_r) OR (Temp_IND_r >= Temp_MAX_r)) THEN
+	Temp_INDAlarma_b := TRUE;
+	Temp_Alarma_Rango_b := TRUE;
+	alarma_aviso_b := TRUE;
+// Chequeo de activación de actuadores
+ELSIF ( Temp_IND_r > Temp_SP_r + Temp_delta_r ) OR ( Temp_IND_r < Temp_SP_r - Temp_delta_r ) THEN		
+	Temp_INDAlarma_b := TRUE;
+	Temp_Alarma_b := TRUE;	
+ELSE
+	Temp_INDAlarma_b := FALSE;
+	Temp_Alarma_Rango_b := FALSE;
+	Temp_Alarma_Descx_b := FALSE;
+END_IF;
+
+// Sensor de pH
+
+// Chequeo de Desconexión
+IF(pH_IND_r <= (TO_REAL(-32768)/10.0)) THEN
+	pH_INDAlarma_b := TRUE;
+	pH_IND_r := 9999.9;
+	pH_Alarma_Descx_b := TRUE;
+	alarma_aviso_b := TRUE;
+// Chequeo de Fuera de rango MIN o MAX	 
+ELSIF ((pH_IND_r <= pH_MIN_r ) OR (pH_IND_r >= pH_MAX_r)) THEN
+	 pH_INDAlarma_b := TRUE;
+	 pH_Alarma_Rango_b := TRUE;
+	 alarma_aviso_b := TRUE;
+// Chequeo de activación de actuadores
+ELSIF (pH_IND_r > pH_SP_r + pH_delta_r) OR (pH_IND_r < pH_SP_r - pH_delta_r) THEN
+	 pH_INDAlarma_b := TRUE;
+	 pH_Alarma_b := TRUE;
+ELSE
+	pH_INDAlarma_b := FALSE;
+	pH_Alarma_Rango_b := FALSE;
+	pH_Alarma_Descx_b := FALSE;
+END_IF;
+
+
+// Sensor de Oxigeno Disuelto
+
+// Chequeo de Desconexión
+IF (OD_IND_r <= (TO_REAL(-32768)/10.0)) THEN
+	OD_INDAlarma_b := TRUE;
+	OD_IND_r := 9999.9;
+	OD_vfd_cmd_w := 16#0008; //(STOP)
+	alarma_aviso_b := TRUE;
+	OD_Alarma_Descx_b := TRUE;
+// Chequeo de Fuera de rango MIN o MAX	
+ELSIF ((OD_IND_r <= OD_MIN_r) OR (OD_IND_r >= OD_MAX_r)) THEN
+	OD_INDAlarma_b := TRUE;
+	OD_Alarma_Rango_b := TRUE;
+	alarma_aviso_b := TRUE;
+// Chequeo de activación de actuadores
+ELSIF (OD_IND_r < OD_SP_r - OD_Delta_r) THEN
+	OD_INDAlarma_b := TRUE;
+	OD_Alarma_b := TRUE;	
+ELSE
+	OD_INDAlarma_b := FALSE;
+	OD_Alarma_Rango_b := FALSE;
+	OD_Alarma_Rango_b := FALSE;
+END_IF;
+
+//----------------------------------------------------------------
+// 					Chequeo disparo de alarmas
+//----------------------------------------------------------------
+
+// Manda el PLC al modo 3 de Manejo de errores
+
+IF (alarma_aviso_b) THEN
+	
+	estado_plc := 3;
+END_IF;

@@ -1,0 +1,651 @@
+<pagetemplate>
+
+<!-- templatedata: these records will be inserted directly in the PPJS when adding this template page, to fill the grid -->
+<templatedata>
+	<webtemplatepage caption="Home" title="CUSTOMER NAME" filename="" sitetemplate="" refresh="1000" password="">
+		<webtemplateItems>
+			<webtemplateItem id="VAR1">
+				<ipa>-1</ipa>
+				<ctrlType>0</ctrlType>
+				<label>Var1</label>
+				<size>7</size>
+				<section/>
+				<imgFilename/>
+				<enumValues/>
+				<imgWidth>0</imgWidth><imgHeight>0</imgHeight>
+			</webtemplateItem>
+			<webtemplateItem id="VAR2">
+				<ipa>-1</ipa>
+				<ctrlType>0</ctrlType>
+				<label>Var2</label>
+				<size>7</size>
+				<section/>
+				<imgFilename/>
+				<enumValues/>
+				<imgWidth>0</imgWidth><imgHeight>0</imgHeight>
+			</webtemplateItem>
+			<webtemplateItem id="VAR3">
+				<ipa>-1</ipa>
+				<ctrlType>0</ctrlType>
+				<label>Var3</label>
+				<size>7</size>
+				<section/>
+				<imgFilename/>
+				<enumValues/>
+				<imgWidth>0</imgWidth><imgHeight>0</imgHeight>
+			</webtemplateItem>
+			<webtemplateItem id="VAR4">
+				<ipa>-1</ipa>
+				<ctrlType>0</ctrlType>
+				<label>Var4</label>
+				<size>7</size>
+				<section/>
+				<imgFilename/>
+				<enumValues/>
+				<imgWidth>0</imgWidth><imgHeight>0</imgHeight>
+			</webtemplateItem>
+			<webtemplateItem id="SET1">
+				<ipa>-1</ipa>
+				<ctrlType>0</ctrlType>
+				<label>Set1</label>
+				<size>7</size>
+				<section/>
+				<imgFilename/>
+				<enumValues/>
+				<imgWidth>0</imgWidth><imgHeight>0</imgHeight>
+			</webtemplateItem>
+			<webtemplateItem id="SET2">
+				<ipa>-1</ipa>
+				<ctrlType>0</ctrlType>
+				<label>Set2</label>
+				<size>7</size>
+				<section/>
+				<imgFilename/>
+				<enumValues/>
+				<imgWidth>0</imgWidth><imgHeight>0</imgHeight>
+			</webtemplateItem>
+			
+			<webtemplateItem id="ONOFF_REQUEST">
+				<ipa>-1</ipa>
+				<ctrlType>2</ctrlType>
+				<label>ON/OFF request</label>
+				<size>10</size>
+				<section/>
+				<imgFilename/>
+				<enumValues>1:</enumValues>
+				<imgWidth>0</imgWidth><imgHeight>0</imgHeight>
+			</webtemplateItem>
+			<webtemplateItem id="ONOFF_STATUS">
+				<ipa>-1</ipa>
+				<ctrlType>3</ctrlType>
+				<label>ON/OFF status</label>
+				<size>10</size>
+				<section/>
+				<imgFilename>MODE.PNG</imgFilename>
+				<enumValues></enumValues>
+				<imgWidth>64</imgWidth><imgHeight>64</imgHeight>
+			</webtemplateItem>
+
+			<webtemplateItem id="ONOFF2_REQUEST">
+				<ipa>-1</ipa>
+				<ctrlType>2</ctrlType>
+				<label>ON/OFF2 request</label>
+				<size>10</size>
+				<section/>
+				<imgFilename/>
+				<enumValues>1:</enumValues>
+				<imgWidth>0</imgWidth><imgHeight>0</imgHeight>
+			</webtemplateItem>
+			<webtemplateItem id="ONOFF2_STATUS">
+				<ipa>-1</ipa>
+				<ctrlType>3</ctrlType>
+				<label>ON/OFF2 status</label>
+				<size>10</size>
+				<section/>
+				<imgFilename>MODE.PNG</imgFilename>
+				<enumValues></enumValues>
+				<imgWidth>64</imgWidth><imgHeight>64</imgHeight>
+			</webtemplateItem>
+
+			<webtemplateItem id="RESET_REQUEST">
+				<ipa>-1</ipa>
+				<ctrlType>2</ctrlType>
+				<label>Reset request</label>
+				<size>10</size>
+				<section/>
+				<imgFilename/>
+				<enumValues>1:</enumValues>
+				<imgWidth>0</imgWidth><imgHeight>0</imgHeight>
+			</webtemplateItem>
+
+			
+			<webtemplateItem id="MODE1_REQUEST">
+				<ipa>-1</ipa>
+				<ctrlType>2</ctrlType>
+				<label>Mode1 request</label>
+				<size>10</size>
+				<section/>
+				<imgFilename/>
+				<enumValues>1:</enumValues>
+				<imgWidth>0</imgWidth><imgHeight>0</imgHeight>
+			</webtemplateItem>
+			<webtemplateItem id="MODE1_STATUS">
+				<ipa>-1</ipa>
+				<ctrlType>3</ctrlType>
+				<label>Mode1 status</label>
+				<size>10</size>
+				<section/>
+				<imgFilename>MODE.PNG</imgFilename>
+				<enumValues></enumValues>
+				<imgWidth>64</imgWidth><imgHeight>64</imgHeight>
+			</webtemplateItem>
+			
+			<webtemplateItem id="MODE2_REQUEST">
+				<ipa>-1</ipa>
+				<ctrlType>2</ctrlType>
+				<label>Mode2 request</label>
+				<size>10</size>
+				<section/>
+				<imgFilename/>
+				<enumValues>1:</enumValues>
+				<imgWidth>0</imgWidth><imgHeight>0</imgHeight>
+			</webtemplateItem>
+			<webtemplateItem id="MODE2_STATUS">
+				<ipa>-1</ipa>
+				<ctrlType>3</ctrlType>
+				<label>Mode2 status</label>
+				<size>10</size>
+				<section/>
+				<imgFilename>MODE.PNG</imgFilename>
+				<enumValues></enumValues>
+				<imgWidth>64</imgWidth><imgHeight>64</imgHeight>
+			</webtemplateItem>
+			
+			<webtemplateItem id="MODE3_REQUEST">
+				<ipa>-1</ipa>
+				<ctrlType>2</ctrlType>
+				<label>Mode3 request</label>
+				<size>10</size>
+				<section/>
+				<imgFilename/>
+				<enumValues>1:</enumValues>
+				<imgWidth>0</imgWidth><imgHeight>0</imgHeight>
+			</webtemplateItem>
+			<webtemplateItem id="MODE3_STATUS">
+				<ipa>-1</ipa>
+				<ctrlType>3</ctrlType>
+				<label>Mode3 status</label>
+				<size>10</size>
+				<section/>
+				<imgFilename>MODE.PNG</imgFilename>
+				<enumValues></enumValues>
+				<imgWidth>64</imgWidth><imgHeight>64</imgHeight>
+			</webtemplateItem>
+			
+			<webtemplateItem id="MODE4_REQUEST">
+				<ipa>-1</ipa>
+				<ctrlType>2</ctrlType>
+				<label>Mode4 request</label>
+				<size>10</size>
+				<section/>
+				<imgFilename/>
+				<enumValues>1:</enumValues>
+				<imgWidth>0</imgWidth><imgHeight>0</imgHeight>
+			</webtemplateItem>
+			<webtemplateItem id="MODE4_STATUS">
+				<ipa>-1</ipa>
+				<ctrlType>3</ctrlType>
+				<label>Mode4 status</label>
+				<size>10</size>
+				<section/>
+				<imgFilename>MODE.PNG</imgFilename>
+				<enumValues></enumValues>
+				<imgWidth>64</imgWidth><imgHeight>64</imgHeight>
+			</webtemplateItem>
+
+			<webtemplateItem id="MODE5_REQUEST">
+				<ipa>-1</ipa>
+				<ctrlType>2</ctrlType>
+				<label>Mode5 request</label>
+				<size>10</size>
+				<section/>
+				<imgFilename/>
+				<enumValues>1:</enumValues>
+				<imgWidth>0</imgWidth><imgHeight>0</imgHeight>
+			</webtemplateItem>
+			<webtemplateItem id="MODE5_STATUS">
+				<ipa>-1</ipa>
+				<ctrlType>3</ctrlType>
+				<label>Mode5 status</label>
+				<size>10</size>
+				<section/>
+				<imgFilename>MODE.PNG</imgFilename>
+				<enumValues></enumValues>
+				<imgWidth>64</imgWidth><imgHeight>64</imgHeight>
+			</webtemplateItem>
+			
+			<webtemplateItem id="MODE6_REQUEST">
+				<ipa>-1</ipa>
+				<ctrlType>2</ctrlType>
+				<label>Mode6 request</label>
+				<size>10</size>
+				<section/>
+				<imgFilename/>
+				<enumValues>1:</enumValues>
+				<imgWidth>0</imgWidth><imgHeight>0</imgHeight>
+			</webtemplateItem>
+			<webtemplateItem id="MODE6_STATUS">
+				<ipa>-1</ipa>
+				<ctrlType>3</ctrlType>
+				<label>Mode6 status</label>
+				<size>10</size>
+				<section/>
+				<imgFilename>MODE.PNG</imgFilename>
+				<enumValues></enumValues>
+				<imgWidth>64</imgWidth><imgHeight>64</imgHeight>
+			</webtemplateItem>
+			<webtemplateItem id="ALARMS">
+				<ipa>-1</ipa>
+				<ctrlType>3</ctrlType>
+				<label>Alarms status</label>
+				<size>10</size>
+				<section/>
+				<imgFilename>ALARMS.PNG</imgFilename>
+				<enumValues></enumValues>
+				<imgWidth>64</imgWidth><imgHeight>64</imgHeight>
+			</webtemplateItem>
+			<webtemplateItem id="ALARM_VAR1">
+				<ipa>-1</ipa>
+				<ctrlType>3</ctrlType>
+				<label>Alarms status</label>
+				<size>10</size>
+				<section/>
+				<imgFilename>ALARMS.PNG</imgFilename>
+				<enumValues></enumValues>
+				<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+			</webtemplateItem>
+			<webtemplateItem id="ALARM_VAR2">
+				<ipa>-1</ipa>
+				<ctrlType>3</ctrlType>
+				<label>Alarms status</label>
+				<size>10</size>
+				<section/>
+				<imgFilename>ALARMS.PNG</imgFilename>
+				<enumValues></enumValues>
+				<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+			</webtemplateItem>
+			<webtemplateItem id="ALARM_VAR3">
+				<ipa>-1</ipa>
+				<ctrlType>3</ctrlType>
+				<label>Alarms status</label>
+				<size>10</size>
+				<section/>
+				<imgFilename>ALARMS.PNG</imgFilename>
+				<enumValues></enumValues>
+				<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+			</webtemplateItem>
+			<webtemplateItem id="ALARM_VAR4">
+				<ipa>-1</ipa>
+				<ctrlType>3</ctrlType>
+				<label>Alarms status</label>
+				<size>10</size>
+				<section/>
+				<imgFilename>ALARMS.PNG</imgFilename>
+				<enumValues></enumValues>
+				<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+			</webtemplateItem>
+		</webtemplateItems>
+	</webtemplatepage>
+</templatedata>
+
+
+<!-- text to be inserted in the <head> of the destination page: this contains the <style> for the page -->
+<extraheader><![CDATA[
+
+<script src="home.js"></script>
+
+<style>
+.rowVar, .rowVar input {
+	font: bold 18px Arial,sans-serif;
+}
+.rowSet, .rowSet input {
+	font: bold 18px Arial,sans-serif;
+}
+.rowVar, .rowSet {
+	height: 50px;
+}
+.colLabel {
+	width: 200px;
+}
+
+.alarm-icon { 
+  width: 35px; 
+  height: 35px; 
+  background-image: url('images/ALARMS.png');
+  background-position: 0 0; /* inactivo */
+  display: inline-block;
+}
+.alarm-icon.active { background-position: 0 -35px; } /* activo */
+
+
+#tblValues {
+	position:absolute;
+	top: 280px; left: 1100px;
+}
+
+.bigBtn {
+	font: bold 14px Arial,sans-serif;
+	width: 100px; height: 50px;
+	margin: 5px;
+}
+
+#form1 {
+	font: normal 12px Arial,sans-serif;
+}
+
+#divONOFFStatus {
+	position:absolute;
+	top: 130px; left:  1350px;
+}
+#divONOFFRequest {
+	position:absolute;
+	top: 150px; left:  1050px;
+}
+#divResetRequest {
+	position:absolute;
+	top: 650px; left:  263px;
+}
+#divONOFF2Status {
+	position:absolute;
+	top: 85px; left:  550px;
+}
+#divMode1Status {
+	position:absolute;
+	top: 550px; left: 920px;
+}
+#divMode2Status {
+	position:absolute;
+	top: 550px; left: 1020px;
+}
+#divMode3Status {
+	position:absolute;
+	top: 550px; left: 1120px;
+}
+#divAlarms {
+	position:absolute;
+	top: 550px; left: 500px;
+}
+
+#divMode4Status {
+	position:absolute;
+	top: 550px; left: 1220px;
+}
+#divMode5Status {
+	position:absolute;
+	top: 550px; left: 1320px;
+}
+#divMode6Status {
+	position:absolute;
+	top: 550px; left: 1420px;
+}
+
+
+#divDate {
+	position:absolute;
+	top: 680px; left: 20px;
+	font: bold 16px Arial,sans-serif;
+}
+#divTime {
+	position:absolute;
+	top: 710px; left: 20px;
+	font: bold 16px Arial,sans-serif;
+}
+
+#mainImageContainer {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 400px; 
+}
+#mainImage {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Alarm table row styling (used when alarms are shown inside #tblValues) */
+.rowVarAlarm td { padding: 6px 10px; vertical-align: middle; }
+.rowVarAlarm .colLabel { width: 300px; font-weight: bold; }
+
+#alarmStatus input { border: none; background-color: white; font-size: 16px; font-weight: normal; }
+
+</style>
+]]>
+</extraheader>
+
+
+<!-- contents of the page body: this references the <param> below with the syntax %PARAM_id% -->
+<pagebody><![CDATA[
+
+
+
+<table id="tblValues">
+	<tr class="rowVar">%PARAM_VAR1%%PARAM_ALARM_VAR1%</tr>
+	<tr class="rowVar">%PARAM_VAR2%%PARAM_ALARM_VAR2%</tr>
+	<tr class="rowVar">%PARAM_VAR3%%PARAM_ALARM_VAR3%</tr>
+	<tr class="rowVar">%PARAM_VAR4%%PARAM_ALARM_VAR4%</tr>
+	%PARAM_SET1%
+	%PARAM_SET2%
+</table>
+
+<div id="mainImageContainer">
+    <img src="BIO.PNG" id="mainImage" alt="Imagen principal">
+</div>
+
+%PARAM_ONOFF_REQUEST%
+%PARAM_ONOFF_STATUS%
+%PARAM_ONOFF2_REQUEST%
+%PARAM_ONOFF2_STATUS%
+%PARAM_MODE1_REQUEST%
+%PARAM_MODE1_STATUS%
+%PARAM_MODE2_REQUEST%
+%PARAM_MODE2_STATUS%
+%PARAM_MODE3_REQUEST%
+%PARAM_MODE3_STATUS%
+%PARAM_MODE4_REQUEST%
+%PARAM_MODE4_STATUS%
+%PARAM_MODE5_REQUEST%
+%PARAM_MODE5_STATUS%
+%PARAM_MODE6_REQUEST%
+%PARAM_MODE6_STATUS%
+%PARAM_ALARMS%
+%PARAM_RESET_REQUEST%
+
+
+]]>
+</pagebody>
+
+
+<!-- text to be inserted in the destination CGX as-is -->
+<extracgx>
+<![CDATA[c t08737<text><id>%s</id><value>%2.0f</value></text>
+c t08738<text><id>%s</id><value>%2.0f</value></text>
+c t08740<text><id>%s</id><value>%2.0f</value></text>
+c t08741<text><id>%s</id><value>%2.0f</value></text>
+]]>
+</extracgx>
+
+
+<!-- content for each specified parameter to be inserted in the <pagebody>, if used -->
+<params>
+<param id="VAR1" addAttr="readonly" note="Current value 1 (eg. temperature) (Numeric)">
+<![CDATA[ <td class="colLabel">%LABEL%</td> <td>%CTRL%</td> <td>%UM%</td> ]]>
+</param>
+
+<param id="VAR2" addAttr="readonly" note="Current value 2 (eg. humidity) (Numeric)">
+<![CDATA[ <td class="colLabel">%LABEL%</td> <td>%CTRL%</td> <td>%UM%</td> ]]>
+</param>
+
+<param id="VAR3" addAttr="readonly" note="Current value 3 (eg. pH) (Numeric)">
+<![CDATA[ <td class="colLabel">%LABEL%</td> <td>%CTRL%</td> <td>%UM%</td> ]]>
+</param>
+
+<param id="VAR4" addAttr="readonly" note="Current value 4 (eg. pressure) (Numeric)">
+<![CDATA[ <td class="colLabel">%LABEL%</td> <td>%CTRL%</td> <td>%UM%</td> ]]>
+</param>
+
+<param id="SET1" note="Setpoint 1 (eg. temperature) (Numeric)">
+<![CDATA[ <tr class="rowSet"><td class="colLabel">%LABEL%</td> <td>%CTRL%</td> <td>%UM%</td></tr> ]]>
+</param>
+
+<param id="SET2" note="Setpoint 2 (eg. humidity) (Numeric)">
+<![CDATA[ <tr class="rowSet"><td class="colLabel">%LABEL%</td> <td>%CTRL%</td> <td>%UM%</td></tr> ]]>
+</param>
+
+<param id="ONOFF_REQUEST" addAttr='class="bigBtn"' note="Toggle ON/OFF (BOOL)"><![CDATA[
+	<div id="divONOFFRequest">
+		%CTRL% 
+		%LABEL%<br>
+	 </div> ]]>
+</param>
+<param id="ONOFF_STATUS" note="Current status for ON/OFF (Enum 0,1,2)"><![CDATA[
+	<div id="divONOFFStatus">
+		%LABEL%<br>
+		%CTRL%
+	</div> ]]>
+</param>
+
+<param id="ONOFF2_REQUEST" addAttr='class="bigBtn"' note="Toggle ON/OFF2 (BOOL)">
+<![CDATA[%CTRL%%LABEL%<br>]]>
+</param>
+<param id="ONOFF2_STATUS" note="Current status for ON/OFF2 (Enum 0,1,2)"><![CDATA[
+	<div id="divONOFF2Status">
+		%LABEL%<br>
+		%CTRL%
+	</div> ]]>
+</param>
+
+
+
+<param id="MODE1_REQUEST" addAttr='class="bigBtn"' note="Activate Mode1 (eg. Heat) (BOOL)">
+<![CDATA[ %CTRL% %LABEL%<br> ]]></param>
+
+<param id="MODE1_STATUS" note="Current status for Mode1 (eg. Heat) (Enum 0,1,2)"><![CDATA[
+	<div id="divMode1Status">
+		%LABEL%<br>
+		%CTRL%
+	</div> ]]>
+</param>
+
+<param id="MODE2_REQUEST" addAttr='class="bigBtn"' note="Activate Mode2 (eg. Cool) (BOOL)">
+<![CDATA[ %CTRL% %LABEL%<br> ]]>
+</param>
+
+<param id="MODE2_STATUS" note="Current status for Mode2 (eg. Cool) (Enum 0,1,2)"><![CDATA[
+	<div id="divMode2Status">
+		%LABEL%<br>
+		%CTRL%
+	</div> ]]>
+</param>
+
+<param id="MODE3_REQUEST" addAttr='class="bigBtn"' note="Activate Mode3 (eg. Auto) (BOOL)">
+<![CDATA[ %CTRL% %LABEL%<br> ]]>
+</param>
+
+<param id="MODE3_STATUS" note="Current status for Mode3 (eg. Auto) (Enum 0,1,2)"><![CDATA[
+	<div id="divMode3Status">
+		%LABEL%<br>
+		%CTRL%
+	</div> ]]>
+</param>
+
+<param id="MODE4_REQUEST" addAttr='class="bigBtn"' note="Toggle Mode4 (eg. TimeZones) (BOOL)">
+<![CDATA[ %CTRL% %LABEL%<br> ]]>
+</param>
+
+<param id="MODE4_STATUS" note="Current status for Mode4 (eg. TimeZones) (BOOL)"><![CDATA[
+	<div id="divMode4Status">
+		%LABEL%<br>
+		%CTRL%
+	</div> ]]>
+</param>
+
+<param id="MODE5_REQUEST" addAttr='class="bigBtn"' note="Toggle Mode5 (eg. TimeZones) (BOOL)">
+<![CDATA[ %CTRL% %LABEL%<br> ]]>
+</param>
+
+<param id="MODE5_STATUS" note="Current status for Mode5 (eg. TimeZones) (BOOL)"><![CDATA[
+	<div id="divMode5Status">
+		%LABEL%<br>
+		%CTRL%
+	</div> ]]>
+</param>
+
+<param id="MODE6_REQUEST" addAttr='class="bigBtn"' note="Toggle Mode6 (eg. TimeZones) (BOOL)">
+<![CDATA[ %CTRL% %LABEL%<br> ]]>
+</param>
+
+<param id="MODE6_STATUS" note="Current status for Mode6 (eg. TimeZones) (BOOL)"><![CDATA[
+	<div id="divMode6Status">
+		%LABEL%<br>
+		%CTRL%
+	</div> ]]>
+</param>
+
+<param id="ALARMS" note="Current Alarms status (BOOL)"><![CDATA[
+	<div id="divAlarms">
+		%LABEL%<br>
+		%CTRL%
+	</div> ]]>
+</param>
+
+<param id="ALARM_VAR1" note="Current Alarms status for Var1 (BOOL)">
+	<![CDATA[ <tr SubParamId="ALARM_TEMP">
+  		<td id="alarmStatus">
+    		<div id="ALARM_TEMP" data-state="%ALARM_TEMP%" class="alarm-icon"></div>
+  		</td>
+	</tr>]]>
+</param>
+
+
+<param id="ALARM_VAR2" note="Current Alarms status for Var2 (BOOL)">
+	<![CDATA[ <td class="rowVarAlarm">
+		<td id="alarmStatus">%CTRL%</td> 
+	</td> ]]>
+</param>
+
+<param id="ALARM_VAR3" note="Current Alarms status for Var3 (BOOL)">
+	<![CDATA[ <td class="rowVarAlarm">
+		<td id="alarmStatus">%CTRL%</td> 
+	</td> ]]>
+</param>
+
+<param id="ALARM_VAR4" note="Current Alarms status for Var4 (BOOL)">
+	<![CDATA[ <td class="rowVarAlarm">
+		<td id="alarmStatus">%CTRL%</td> 
+	</td> ]]>
+</param>
+
+<param id="RESET_REQUEST" addAttr='class="bigBtn"' note="Reset PLC (Back to Standby) (BOOL)"><![CDATA[
+	<div id="divResetRequest">
+		%CTRL% 
+		%LABEL%<br>
+	 </div> ]]>
+</param>
+
+
+</params>
+
+
+<!-- supplementary files to be copied as-is -->
+<files>
+	<file>MODE.PNG</file>
+	<file>TIME.PNG</file>
+	<file>ALARMS.PNG</file>
+	<file>BIO.PNG</file>
+	<file>HOME.JS</file>
+</files>
+
+</pagetemplate>

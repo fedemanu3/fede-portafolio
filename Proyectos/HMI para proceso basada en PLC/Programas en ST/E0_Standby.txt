@@ -1,0 +1,49 @@
+/*
+*		Standby
+* Tarea realizada en Timed
+* PLC en reposo
+*/
+
+IF (estado_plc = 0) THEN
+
+	estado_E0_b := TRUE;
+	
+	// Si alguno de los botones de activar lazo o control manual, se cambia
+	// de estado al correspondiente	
+	
+	IF (estado_ctrl_manual_b = TRUE) THEN
+		estado_plc := 1;
+	END_IF;
+	
+	IF (estado_ctrl_LC_b = TRUE) THEN
+		estado_plc := 2;
+	END_IF;
+	
+	
+	// Mantiene los actuadores apagados
+	Esp_bombaAEsp_plc := FALSE;
+	Esp_bombaAEsp_b := FALSE;
+	Ac_DO_plc := FALSE;
+	Ac_BombaIND_b := FALSE;
+	Ba_DO_plc := FALSE;
+	Ba_BombaIND_b := FALSE;
+	Temp_calentar_plc := FALSE;
+	Temp_calentar_b := FALSE;
+	Temp_enfriar_plc := FALSE;
+	Temp_enfriar_b := FALSE;
+	OD_vfd_b := FALSE;
+	OD_vfd_cmd_w := 16#0008; //(STOP)
+	
+	Temp_enfriar_request_b := FALSE;
+	Temp_calentar_request_b := FALSE;
+	Ac_Bomba_request_b := FALSE;
+	Ba_Bomba_request_b := FALSE;
+	Esp_BombaAEsp_request_b := FALSE;
+	OD_vfd_request_b := FALSE;
+	
+	
+	
+ELSE
+	estado_E0_b := FALSE;
+END_IF;
+

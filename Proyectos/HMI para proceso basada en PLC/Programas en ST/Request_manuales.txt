@@ -1,0 +1,56 @@
+/*
+*		Request manuales
+* Tarea realizada en Timed
+* On/Off de actuadores manualmente
+*/
+IF (Modo_ctrl_manual_b = TRUE AND Modo_PLC = FALSE ) THEN
+// Request para Temperatura
+	request_enfriar(clk := Temp_enfriar_request_b);
+	IF request_enfriar.q THEN
+		Temp_enfriar_plc := NOT Temp_enfriar_plc;
+		Temp_enfriar_b := NOT Temp_enfriar_b;
+		Temp_enfriar_request_b := FALSE;
+	END_IF;
+	
+	request_calentar(clk := Temp_calentar_request_b);
+	IF request_calentar.q THEN
+		Temp_calentar_plc := NOT Temp_calentar_plc;
+		Temp_calentar_b := NOT Temp_calentar_b;
+		Temp_calentar_request_b := FALSE;
+	END_IF;
+	// Request pH
+
+	request_acido(clk := Ac_Bomba_request_b);
+	request_base(clk := Ba_Bomba_request_b);
+	IF request_acido.q THEN
+		Ac_DO_plc := NOT Ac_DO_plc;
+		Ac_BombaIND_b := NOT Ac_BombaIND_b;
+		Ac_Bomba_request_b := FALSE;
+	END_IF;
+	
+	IF request_base.q THEN
+		Ba_DO_plc := NOT Ba_DO_plc;
+		Ba_BombaIND_b := NOT Ba_BombaIND_b;
+		Ba_Bomba_request_b := FALSE;
+	END_IF;
+	
+	// Request Nivel de Espuma
+	request_antiesp(clk := Esp_BombaAEsp_request_b);
+	IF request_antiesp.q THEN
+		Esp_bombaAEsp_plc := NOT Esp_bombaAEsp_plc;
+		Esp_bombaAEsp_b := NOT Esp_bombaAEsp_b;
+		Esp_BombaAEsp_request_b := FALSE;
+	END_IF;
+
+	// Request OD
+	request_OD(clk := OD_vfd_request_b);
+	IF request_OD.q THEN	
+		OD_vfd_b := NOT OD_vfd_b;
+		IF OD_vfd_b THEN
+			OD_vfd_cmd_w := 16#0001; //(RUN)
+		ELSE
+			OD_vfd_cmd_w := 16#0008; //(STOP)
+		END_IF;
+		OD_vfd_request_b := FALSE;
+	END_IF;	
+END_IF;

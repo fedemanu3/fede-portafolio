@@ -1,0 +1,51 @@
+/*			Manejo de alarmas
+Se entra en un estado de manejo de alarmas. El usuario debe corregir los
+errores presentes en el sistema y luego presionar el boton para regresar 
+al estado de Standby. LA UNICA MANERA DE SALIR DE ESTE ESTADO ES VÏA EL BOTON 
+*/
+
+IF (estado_plc = 3) THEN
+
+	
+/* En caso de presionar el boton, se vuelve al Estado Standby
+   Se agrega una rama más de seguridad para que solo se pueda presionar el boton
+	una vez que la variable error es 0.
+*/	
+detectar_boton3(clk := control_alarmas_b);
+IF detectar_boton3.q THEN
+	estado_control_alarmas_b := NOT estado_control_alarmas_b;
+	alarma_aviso_b := FALSE;	
+	estado_plc := 0; 
+	control_alarmas_b := FALSE;
+END_IF;	
+	
+	
+	estado_E3_b := TRUE;
+	estado_ctrl_LC_b := FALSE; // mantiene nulo el boton de ctrl LC
+	estado_ctrl_manual_b := FALSE; // mantiene nulo el boton de ctrl manual
+	
+	// Mantiene los actuadores apagados
+	Esp_bombaAEsp_plc := FALSE;
+	Esp_bombaAEsp_b := FALSE;
+	Ac_DO_plc := FALSE;
+	Ac_BombaIND_b := FALSE;
+	Ba_DO_plc := FALSE;
+	Ba_BombaIND_b := FALSE;
+	Temp_calentar_plc := FALSE;
+	Temp_calentar_b := FALSE;
+	Temp_enfriar_plc := FALSE;
+	Temp_enfriar_b := FALSE;
+	OD_vfd_b := FALSE;
+	OD_vfd_cmd_w := 16#0008; //(STOP)
+	
+	Temp_enfriar_request_b := FALSE;
+	Temp_calentar_request_b := FALSE;
+	Ac_Bomba_request_b := FALSE;
+	Ba_Bomba_request_b := FALSE;
+	Esp_BombaAEsp_request_b := FALSE;
+	OD_vfd_request_b := FALSE;
+
+ELSE
+		estado_E3_b := FALSE;
+
+END_IF;

@@ -1,0 +1,1247 @@
+<pagetemplate>
+
+  <!-- templatedata: these records will be inserted directly in the PPJS when adding this template page, to fill the grid -->
+  <templatedata>
+    <webtemplatepage caption="TVDA Alarms" title="TVDA ALARMS" filename="" sitetemplate="" refresh="1000" password="">
+      <webtemplateItems>
+       
+		<webtemplateItem id="alarmStatusId0">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 1</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId1">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 2</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId2">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 3</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId3">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 4</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId4">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 5</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId5">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 6</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId6">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 7</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId7">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 8</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId8">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 9</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId9">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 10</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId10">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 11</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		
+		<webtemplateItem id="alarmStatusId11">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 12</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId12">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 13</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId13">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 14</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId14">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 15</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId15">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 16</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId16">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 17</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId17">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 18</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId18">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 19</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId19">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 20</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId20">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 21</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId21">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 22</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId22">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 23</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId23">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 24</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId24">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 25</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId25">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 26</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId26">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 27</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId27">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 28</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId28">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 29</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId29">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 30</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId30">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 31</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId31">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 32</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId32">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 33</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId33">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 34</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId34">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 35</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId35">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 36</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>	
+		<webtemplateItem id="alarmStatusId36">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 37</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId37">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 38</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId38">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 39</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId39">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 40</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId40">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 41</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId41">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 42</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId42">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 43</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId43">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 44</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId44">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 45</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId45">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 46</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId46">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 47</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId47">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 48</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId48">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 49</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		<webtemplateItem id="alarmStatusId49">
+			<ipa>-1</ipa>
+			<ctrlType>3</ctrlType>
+			<label>Alarm 50</label>
+			<size>10</size>
+			<section/>
+			<imgFilename>ALARMS.PNG</imgFilename>
+			<enumValues></enumValues>
+			<imgWidth>35</imgWidth><imgHeight>35</imgHeight>
+		</webtemplateItem>
+		
+		</webtemplateItems>
+    </webtemplatepage>
+  </templatedata>
+
+
+  <!-- text to be inserted in the <head> of the destination page: this contains the <style> for the page -->
+  <extraheader>
+    <![CDATA[
+    <script src="alarm.js"></script>
+    
+    <style>
+        .rowVar1, .rowVar1 input { font: bold 18px Arial,sans-serif; }
+
+        .rowSet, .rowSet input { font: bold 18px Arial,sans-serif; }
+
+        .rowVar1, .rowSet { height: 50px; }
+
+        .colLabel { width: 600px; }
+
+        .bigBtn { font: bold 14px Arial,sans-serif; width: 100px; height: 50px; margin: 5px; }
+
+        #tblValues { position: absolute; top: 200px; left: 500px; }
+
+        #form1 { font: normal 12px Arial,sans-serif; }
+
+        #divONOFFStatus { position: absolute; top: 550px; left: 20px; }
+
+       // #divMode1Status { position: absolute; top: 550px; left: 120px; }
+
+       // #divMode2Status { position: absolute; top: 550px; left: 220px; }
+
+       // #divMode3Status { position: absolute; top: 550px; left: 320px; }
+
+        #divAlarms { position: absolute; top: 550px; left: 500px; }
+
+       // #divMode4Status { position: absolute; top: 550px; left: 700px; } 
+        
+        #divDate { position: absolute; top: 680px; left: 20px; font: bold 16px Arial,sans-serif; }
+
+        #divTime { position: absolute; top: 680px; left: 200px; font: bold 16px Arial,sans-serif; }
+        
+
+        <!-- CUSTOM STYLING -->
+        body { font-family: "Lato", sans-serif; transition: background-color .5s;
+        }
+
+        /*Content area for controls to be displayed*/
+        #alarmMain { transition: margin-left .5s; padding: 16px; }
+
+        /*Alarm Table*/
+        #tblAlarms { width: 100%; border-style: none; table-layout: fixed;}
+
+        #tblAlarms th { font-size: 16px; font-weight: bold; }
+
+        #tblAlarms td { font-size: 15px;  font-weight: normal; }
+
+        #alarmStatus input { border: none; background-color: white; font-size: 16px; font-weight: normal; }
+
+        #UI input { border:none; font-weight: normal; font-size: 16px; height: 25px; }
+
+        /*Images right side of the content page*/
+        #DivImages img { display: inline-block; margin-left: 50px; }
+
+        /*Style for search text box*/
+        #alarmSearch input { border: none; border-bottom: solid 1px black; }
+
+        #alarmSearch img { display: inline-block; }
+
+        .col-md-12 { padding-right: 0px; }
+
+        /*Horizontal BARS*/
+        .menu-icon > .line { background-color: white; height: 2px; display: block; width: 25px; }
+
+        .menu-icon > .line + .line { margin-top: 8px; }
+
+        /*Vertical DOTS*/
+        .showLeft {
+            background-color: #green !important;
+            border: 0px solid #0d77b6 !important;
+            text-shadow: none !important;
+            color: #fff !important;
+            padding: 10px;
+        }
+
+        .icons li {
+            background: none repeat scroll 0 0 #fff;
+            height: 7px;
+            width: 7px;
+            line-height: 0;
+            list-style: none outside none;
+            margin-right: 15px;
+            margin-top: 3px;
+            vertical-align: top;
+        }
+		#UI input {  border: none; background-color: white; font-size: 16px; font-weight: normal; }
+        
+        .container-fluid { background-color: white; }
+
+        /**/
+        #MainHeading { display: inline-block; margin-left: 5px; font-size: 24px; }
+
+        #alarmNameSearch {  height: 30px; 
+                      background-image: url('Search.png'); 
+                      background-repeat: no-repeat; 
+                      background-position: right; 
+                      background-size: 20px; 
+                      font-size: 18px;
+                      font-weight: normal;                      
+                    }
+
+        .title { display: none; }
+        
+        /*Desktop Display Style*/
+        @media (min-width: 1024px) {
+            //#OptionDiv { display: none; }
+			#alarmSearch {width: 50%;}
+            #alarmNameSearch { width: 50%; }
+            //#OptionDD { display: none; }
+            #LeftPopupDiv { display: none; }
+            #alarmMain { margin-left:40px; padding: 10px; }
+        }
+
+        /*Teblate Display Style*/
+        @media (min-width: 601px) and (max-width: 1023px) {
+            .col-md-12 { padding-right: 0px;}
+
+            #DivImages { width: 40%; }
+            #DivImages img{ margin-left: 20px;}
+            //#OptionDiv { display: none; }
+			
+            #alarmSearch { width: 60%; }
+            #alarmNameSearch { width: 60%; }
+            #LeftPopupDiv { display: none; }
+            #Pmain { margin-left:10px; padding: 10px; }
+            #UI input { width: 70%; }
+            [class*="col-"] {
+                        float: none;
+                        }
+
+            .closeIconSmallDevices {
+                display: none;
+            }              
+            
+        }
+
+        /*Mobile Display Style*/
+        @media (max-width: 600px) {
+            #DivImages { display: none; }
+            //#OptionDiv { display:inline-block; z-index: -1 ; margin-top: 12px; }
+            #DivImages img{ margin-left: 20px; }
+            #alarmSearch { width: 100%; }
+            #alarmNameSearch { width: 100%; }
+            #AppName { display: none; }
+            #alarmMain{margin-left: 0px;}
+            #UI input { width: 80px; }
+            #alarmMain { margin-left:10px; padding: 10px; }
+        }        
+        
+      #Elements a{ color: black; font-size: 14px; font-weight: normal;}        
+      
+      
+    </style>
+  
+]]>
+  </extraheader>
+
+
+  <!-- contents of the page body: this references the <param> below with the syntax %PARAM_id% -->
+  <pagebody>
+
+    <![CDATA[
+ 
+
+           <div class="container-fluid">
+
+
+            <!-- Second Row -->
+            <div class="row" id="MainContentAreaDiv" >
+                <div class="col-md-10" id = "SubContentAreaDiv">
+                    <div id="alarmMain">
+                        <!-- Top Search and Read, Write, Save and Load images -->
+                        <div class="row" style="margin-top: 10px; margin-right: 10px;">
+                            <div class="col-lg-8" id="alarmSearch">
+                                <input type="text" id="alarmNameSearch" placeholder="Search Alarms" style="" />
+                                <!--<a href=""><img src="Search.png" class="img img-responsive" /></a>-->
+                            </div>
+                           </div>
+                        
+                        <!-- Alarms table -->
+                        <div class="row" >
+                            <div id = "alarmTableMainDiv" class="col-md-12">
+                                <div>
+                                    <table id="tblAlarms" class="table table-responsive">
+                                        <thead>
+                                            <tr>
+                                                <th><input type="checkbox" id="selectActive" checked /> Active Alarms</th>
+                                                <th></th>
+												<th>Status</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                              %PARAM_alarmStatusId0%
+                                              %PARAM_alarmStatusId1%
+                                              %PARAM_alarmStatusId2%
+                                              %PARAM_alarmStatusId3%
+                                              %PARAM_alarmStatusId4%
+                                              %PARAM_alarmStatusId5%
+                                              %PARAM_alarmStatusId6%
+                                              %PARAM_alarmStatusId7%
+                                              %PARAM_alarmStatusId8%
+                                              %PARAM_alarmStatusId9%
+                                              %PARAM_alarmStatusId10%
+											  %PARAM_alarmStatusId11%
+                                              %PARAM_alarmStatusId12%
+                                              %PARAM_alarmStatusId13%
+                                              %PARAM_alarmStatusId14%
+                                              %PARAM_alarmStatusId15%
+                                              %PARAM_alarmStatusId16%
+                                              %PARAM_alarmStatusId17%
+                                              %PARAM_alarmStatusId18%
+                                              %PARAM_alarmStatusId19%
+											  %PARAM_alarmStatusId20%
+											  %PARAM_alarmStatusId21%
+                                              %PARAM_alarmStatusId22%
+                                              %PARAM_alarmStatusId23%
+                                              %PARAM_alarmStatusId24%
+											  %PARAM_alarmStatusId25%
+                                              %PARAM_alarmStatusId26%
+                                              %PARAM_alarmStatusId27%
+                                              %PARAM_alarmStatusId28%
+                                              %PARAM_alarmStatusId29%
+                                              %PARAM_alarmStatusId30%
+                                              %PARAM_alarmStatusId31%
+                                              %PARAM_alarmStatusId32%
+                                              %PARAM_alarmStatusId33%
+                                              %PARAM_alarmStatusId34%
+                                              %PARAM_alarmStatusId35%
+											  %PARAM_alarmStatusId36%
+                                              %PARAM_alarmStatusId37%
+                                              %PARAM_alarmStatusId38%
+                                              %PARAM_alarmStatusId39%
+                                              %PARAM_alarmStatusId40%
+                                              %PARAM_alarmStatusId41%
+                                              %PARAM_alarmStatusId42%
+                                              %PARAM_alarmStatusId43%
+                                              %PARAM_alarmStatusId44%
+											  %PARAM_alarmStatusId45%
+											  %PARAM_alarmStatusId46%
+                                              %PARAM_alarmStatusId47%
+                                              %PARAM_alarmStatusId48%
+                                              %PARAM_alarmStatusId49%                                          
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+]]>
+  </pagebody>
+
+
+  <!-- text to be inserted in the destination CGX as-is -->
+  <extracgx>
+    <![CDATA[c t08737<text><id>%s</id><value>%2.0f</value></text>
+c t08738<text><id>%s</id><value>%2.0f</value></text>
+c t08740<text><id>%s</id><value>%2.0f</value></text>
+c t08741<text><id>%s</id><value>%2.0f</value></text>
+]]>
+  </extracgx>
+
+
+  <!-- content for each specified alarm to be inserted in the <pagebody>, if used -->
+  <params>
+  	<param id="alarmStatusId0" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+         <td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+		<td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId1" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+        <td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+		<td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId2" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+        <td class="colLabel">
+           %LABEL%
+         </td> 
+        <td id="alarmStatus">%CTRL%</td> 
+		<td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId3" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+         <td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+		<td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId4" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+        <td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+       <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId5" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+        <td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+       <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId6" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+        <td class="colLabel">
+           %LABEL%
+         </td> 
+        <td id="alarmStatus">%CTRL%</td> 
+       <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId7" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+        <td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+       <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId8" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+        <td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+       <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId9" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+		<td class="colLabel">
+           %LABEL%
+         </td>
+         <td id="alarmStatus">%CTRL%</td> 
+         <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId10" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+		<td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+        <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	
+	<param id="alarmStatusId11" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+		<td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+        <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId12" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+		<td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+        <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId13" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+		<td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+       <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId14" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+		<td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+        <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId15" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+		<td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+		<td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId16" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+		<td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+        <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId17" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+		<td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+        <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId18" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+		<td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+        <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId19" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+		<td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+        <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId20" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+		<td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+        <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId21" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+		<td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+        <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId22" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+		<td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+        <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId23" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+		<td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+        <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId24" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+		<td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+        <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId25" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+		<td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+        <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId26" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+		<td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+        <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId27" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+		<td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+        <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId28" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+		<td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+        <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId29" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+		<td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+        <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId30" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+		<td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+        <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId31" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+		<td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+        <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId32" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+		<td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+        <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId33" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+		<td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+        <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId34" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+		<td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+        <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId35" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+		<td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+        <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId36" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+		<td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+        <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId37" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+		<td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+        <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId38" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+		<td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+        <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId39" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+		<td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+        <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId40" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+		<td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+        <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId41" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+		<td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+        <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId42" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+		<td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+        <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId43" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+		<td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+        <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId44" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+		<td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+        <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId45" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+		<td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+        <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId46" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+		<td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+        <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId47" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+		<td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+        <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId48" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+		<td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+        <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+	<param id="alarmStatusId49" note="">
+      <![CDATA[ <tr SubParamId="1" class="rowVar1">
+		<td class="colLabel">
+           %LABEL%
+         </td>
+        <td id="alarmStatus">%CTRL%</td> 
+        <td id="UI"><input type="text" /></td>
+      </tr> ]]>
+    </param >
+  </params>
+
+  <!-- supplementary files to be copied as-is -->
+  <files>
+    <file>ALARMS.PNG</file>
+    <file>SEARCH.PNG</file>
+    <file>ALARM.js</file>
+
+  </files>
+
+</pagetemplate>

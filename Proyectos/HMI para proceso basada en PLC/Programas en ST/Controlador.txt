@@ -1,0 +1,124 @@
+/*						Estado = Control
+*
+*	PLC ejecuta los controles ON/OFF 
+* Tarea realizada en Timed
+*
+*/
+
+// Escalar valores
+	Temp_IND_r := (TO_REAL(Temp_plc)-100.0)/0.39; 
+	//pH_IND_r := TO_REAL(PH_plc);
+	pH_IND_r := (TO_REAL(PH_plc))*14/1000.0;
+	//OD_IND_r := TO_REAL(OD_plc);
+    OD_IND_r := (TO_REAL(OD_plc))*30/1000.0;
+	Esp_nivel_IND_b := Esp_nivel_plc;
+
+IF (Modo_PLC = TRUE) THEN
+	
+	// Inhabilito la activación manual
+	 Modo_ctrl_manual_b := FALSE;	
+	
+	
+	/*
+	* CONTROL DE TEMPERATURA
+	*/
+	
+	/* Temperatura por encima de setpoint + delta, enciendo válvula h2o.
+		Sino la dejo apagada. 
+	*/
+	IF( Temp_IND_r > Temp_SP_r + Temp_delta_r ) THEN
+		Temp_enfriar_plc := TRUE;
+		Temp_enfriar_b := TRUE;
+	ELSE
+		Temp_enfriar_plc := FALSE;
+		Temp_enfriar_b := FALSE;
+	END_IF;
+	
+	/* Temperatura por debajo de setpoint - delta, enciendo calefacción
+		Sino la dejo apagada. 	
+	*/
+
+	IF( Temp_IND_r < Temp_SP_r - Temp_delta_r ) THEN
+		Temp_calentar_plc := TRUE;
+		Temp_calentar_b := TRUE;		
+	ELSE
+		Temp_calentar_plc := FALSE;
+		Temp_calentar_b := FALSE;
+	END_IF;
+	
+	/* 
+	*	CONTROL DE pH
+	*/
+	
+	// Solución básica, enciendo bomba ácida
+	IF (pH_IND_r > pH_SP_r + pH_delta_r) THEN
+		Ac_DO_plc := TRUE;
+		Ac_BombaIND_b := TRUE;
+		
+	// Solución ácida, enciendo bomba básica
+	ELSIF (pH_IND_r < pH_SP_r - pH_delta_r) THEN
+		Ba_DO_plc := TRUE;
+		Ba_BombaIND_b := TRUE;
+		
+	// Solución neutra, dejo todo apagado	
+	ELSE
+		Ac_DO_plc := FALSE;
+		Ac_BombaIND_b := FALSE;
+		Ba_DO_plc := FALSE;
+		Ba_BombaIND_b := FALSE;
+	END_IF;
+
+	/* 
+	*	CONTROL DE NIVEL DE ESPUMA
+	*/
+	/* Si la DIL1 (Pin nivel de espuma) se mantiene en ALTO luego de 5 segundos
+		poner en ALTO el indicador de nivel de espuma y activar alarma + bomba antiespumante	
+	*/
+	InstTON(IN:=Esp_nivel_plc,PT:=5000,Q=>Esp_nivel_IND_b);
+	
+	IF(Esp_nivel_IND_b = TRUE) THEN
+	
+		Esp_nivel_INDAlarma_b := TRUE;
+		Esp_bombaAEsp_plc := TRUE;
+		Esp_bombaAEsp_b := TRUE;
+	ELSE
+		Esp_nivel_INDAlarma_b := FALSE;
+		Esp_bombaAEsp_plc := FALSE;
+		Esp_bombaAEsp_b := FALSE;
+	END_IF;
+	
+	/* 
+	*	Control Oxigeno Disuelto
+	*	
+	*	Segun el dato del sensor, apago o enciendo el variador
+	*/
+	
+	// setea la frecuencia del variador en 50 Hz (0.01 Hz)
+		
+	//OD_vfd_freq_w := 5000;
+	
+	IF(OD_IND_r < OD_SP_r - OD_Delta_r) THEN
+		OD_vfd_b := TRUE;
+		OD_vfd_cmd_w := 16#0001; //(RUN)
+	END_IF;
+	
+	IF(OD_IND_r > OD_SP_r - OD_Delta_r) THEN
+		OD_vfd_b := FALSE;
+		OD_vfd_cmd_w := 16#0008; //(STOP)
+	END_IF;
+
+ELSIF(Modo_PLC = FALSE AND Modo_ctrl_manual_b = FALSE) THEN
+	Esp_nivel_INDAlarma_b := FALSE;
+	Esp_bombaAEsp_plc := FALSE;
+	Esp_bombaAEsp_b := FALSE;
+	Ac_DO_plc := FALSE;
+	Ac_BombaIND_b := FALSE;
+	Ba_DO_plc := FALSE;
+	Ba_BombaIND_b := FALSE;
+	Temp_calentar_plc := FALSE;
+	Temp_calentar_b := FALSE;
+	Temp_enfriar_plc := FALSE;
+	Temp_enfriar_b := FALSE;
+	OD_vfd_b := FALSE;
+	OD_vfd_cmd_w := 16#0008; //(STOP)
+END_IF;

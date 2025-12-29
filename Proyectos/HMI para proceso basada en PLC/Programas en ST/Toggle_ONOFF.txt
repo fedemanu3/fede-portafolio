@@ -1,0 +1,20 @@
+/* Toggle de los Botones de ON/OFF y Lazo de control
+* Tarea realizada en Timed
+* Variables "modo" son los indicadores leds
+* Las otras los botones que tooglean
+*/
+
+detectar_flanco(clk := Controlador_Run_b);
+
+IF detectar_flanco.q THEN
+	Modo_PLC := NOT Modo_PLC;
+	Controlador_Run_b := FALSE;
+END_IF;
+
+// Toggle del Boton ON/OFF para controles manuales
+detectar_flanco(clk := Activar_ctrl_manual_b);
+
+IF detectar_flanco.q THEN
+	Modo_ctrl_manual_b := NOT Modo_ctrl_manual_b;
+	Activar_ctrl_manual_b := FALSE;
+END_IF;
